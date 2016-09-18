@@ -13,6 +13,13 @@
 
 		
    </head>
+    <script type="text/javascript">
+        jQuery("body").prepend('<div id="preloader">Loading...</div>');
+        jQuery(document).ready(function() {
+        jQuery("#preloader").remove();
+    });
+    </script>
+    
    <body>
 
        <!-- BEGIN NAVIGATION -->
