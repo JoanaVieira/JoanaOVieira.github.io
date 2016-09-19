@@ -1,4 +1,5 @@
 body { 
+  width: 100%;
   background: url(/assets/images/background_1_new.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,18 +18,67 @@ body {
 }
 
 
-#navbar-primary .navbar-nav { 
- background: #ededed;
-  width: 100%;
-  text-align: center;
+.cool-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
 
-#navbar-primary .navbar-nav li {
+.cool-header-item{
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#aboutlink{
+    width: 150px;
+    margin-left: 20%;
+    border-bottom: solid #ffffff;
+    border-width: 0px 0px 1px 0px;
+}
+
+#aboutlink:hover{
+    text-decoration: none;
+    color: #00c7d8;
+}
+
+#workslink:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    margin-right: 20%;
+    position: relative;
     display: inline-block;
-    float: none;
+    text-align: right;
+    width: 150px;
+    border-bottom: solid #ffffff;
+    border-width: 0px 0px 1px 0px;
 }
 
-#navbar-primary .navbar-nav li a {
-      padding-left: 30px;
-      padding-right: 30px;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px 0px 0px;
+    text-decoration: none;
+    display: block;
+    font-family: "Slabo 27px", sans-serif;
+    font-size: 15px;
+    color: #c4c4c4;
+}
+
+.dropdown-content a:hover {
+    color: #00c7d8;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
