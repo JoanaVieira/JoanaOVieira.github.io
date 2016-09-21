@@ -88,5 +88,33 @@ body {
 /* Main page Content */
 
 .main_text{
-    padding: 15% 15% 10% 15%;
+    padding: 10% 15% 5% 15%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title_main{
+    font-size: 60px;
+}
+
+.descr{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.email{
+    color: #d8d8d8;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.spaceman{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.dragme{
+    margin-top: 10px;
 }

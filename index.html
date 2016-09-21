@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu" rel="stylesheet">	
    </head>
     
@@ -40,16 +41,19 @@
        <!-- BEGIN ABOUT -->
        <div class="container main_text">
            <div class="row">
-               <h1 class="tittle_main">Hi there!</h1>
+               <h1 class="title_main">Hi there!</h1>
                <h5 class="descr">I'm Joana Vieira, a Designer and Front-end dev.</h5>
-               <p class="email"><i class="fa fa-envelope" aria-hidden="true"></i>
- joanaoliveiravieira@gmail.com</p>
+               <p class="email"><i class="fa fa-envelope" aria-hidden="true"></i> joanaoliveiravieira@gmail.com</p>
            </div>
        </div>
        <!-- END ABOUT -->
 
        
        <!-- BEGIN SPACEMAN -->
+       <div class="container spaceman">
+            <img id="draggable" src="assets/images/spaceman.png" alt="spaceman">
+            <p class="dragme">Drag me!</p>
+       </div>
        <!-- END SPACEMAN -->
 
        <!-- BEGIN FOOTER -->
@@ -58,11 +62,15 @@
        
        <script src="js/jquery.js"></script>
        <script src="js/bootstrap.min.js"></script>
+       <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     
        <script type="text/javascript">
         $(window).load(function() {
-	    $(".loader").fadeOut("slow");
-        })
+	       $(".loader").fadeOut("slow");
+        });
+        $( function() {
+            $( "#draggable" ).draggable();
+        });
         </script>
 
     </body>
