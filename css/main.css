@@ -7,6 +7,8 @@ body {
   background-size: cover;
 }
 
+/* Header */
+
 .loader {
 	position: fixed;
 	left: 0px;
@@ -81,4 +83,10 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* Main page Content */
+
+.main_text{
+    padding: 15% 15% 10% 15%;
 }
