@@ -51,13 +51,20 @@
        
        <!-- BEGIN SPACEMAN -->
        <div class="container spaceman">
-            <img id="draggable" src="assets/images/spaceman.png" alt="spaceman">
-            <p class="dragme">Drag me!</p>
+           <div id="draggable">
+                <img id="spaceman_icon" src="assets/images/spaceman.png" alt="spaceman">
+                <p id="dragtext" class="dragme">Drag me!</p>
+            </div>
        </div>
        <!-- END SPACEMAN -->
 
        <!-- BEGIN FOOTER -->
-
+       <footer class="footer">
+           <div class="container">
+                <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-behance-square fa-2x" aria-hidden="true"></i></a>
+            </div>
+       </footer>
        <!-- END FOOTER -->	
        
        <script src="js/jquery.js"></script>
@@ -68,8 +75,21 @@
         $(window).load(function() {
 	       $(".loader").fadeOut("slow");
         });
+           
         $( function() {
-            $( "#draggable" ).draggable();
+            $( "#draggable" ).draggable({
+            
+                drag: function() {
+                    document.getElementById("dragtext").innerHTML = "To infinity and beyond!";
+                    document.getElementById("spaceman_icon").src="assets/images/spacemandrag.png";
+                },
+                
+                stop: function() {
+                    document.getElementById("dragtext").innerHTML = "Drag me!";
+                    document.getElementById("spaceman_icon").src="assets/images/spaceman.png";
+                    document.getElementById("spaceman_icon").src="assets/images/spaceman.png";
+                },
+            });
         });
         </script>
 
