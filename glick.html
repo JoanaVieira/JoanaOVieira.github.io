@@ -3,13 +3,15 @@
    <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<title>About me</title>
+		<title>Glick</title>
 		<meta name="description" content="Joana Vieira Online Portfolio">
 
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-       <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu" rel="stylesheet">	
+        <link rel="stylesheet" type="text/css" href="css/work.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu" rel="stylesheet">	
    </head>
     
    <body>
@@ -18,7 +20,7 @@
            <div class="row header">
                <div class="col-xs-12">
                    <div class="cool-header">
-                       <a href="About.html" id="aboutlink" class="cool-header-item">About Me</a>
+                       <a href="About.html" id="aboutlink" class="cool-header-item">About</a>
                        <a href="index.html"><img class="cool-header-item" src="/assets/images/logo.png" alt="Joana Vieira"></a>
                        <div class="dropdown"><a id="workslink" class="cool-header-item">Works</a>
                            <div class="dropdown-content">
@@ -37,13 +39,29 @@
 	   <!-- END NAVIGATION -->
 
        
-       <!-- BEGIN ABOUT -->
-       <h1>Glick</h1>
-       <!-- END ABOUT -->
+       <!-- TITTLE & DESCRIPTION -->
+       <div class="container">
+           <div class="row">
+                <h1 class="title_work">Glick</h1>
+           </div>
+           <div class="row">
+               <p class="description_work">Glick (personalised suggestions based on your spending habits) was a project developed as part of Faber Ventures Summer Internship along with 4 other people. When designing the logo and mockups I was asked to use bright colors, based on that I decided to use more pastel colors (blue, orange, pink and green).</p>
+           </div>
+       </div>
+       
+       <!-- IMAGES -->
+       <div class="container">
+           <div class="row">
+                <a href="assets/images/Glick/Logos-03.png" data-lightbox="Glick" alwaysShowNavOnTouchDevices="true" data-title="Glick Logo"><img class="m4logo" src="assets/images/Glick/Logos-03.png" alt="Logo"></a>
+           </div>
+           <div class="row">
+               <a href="assets/images/Glick/interaction.gif" data-lightbox="Glick" alwaysShowNavOnTouchDevices="true" data-title="Glick Gif"><img class="glgif" src="assets/images/Glick/interaction.gif" alt="Glick Interaction gif"></a>
+           </div>
+	   </div>
 	
        
         <!-- BEGIN FOOTER -->
-       <footer class="footer">
+       <footer class="footer2">
            <div class="container">
                 <a href="https://pt.linkedin.com/in/joanaovieira"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.behance.net/JoanaOVieira"><i class="fa fa-behance-square fa-2x" aria-hidden="true"></i></a>
@@ -53,6 +71,7 @@
        
        <script src="js/jquery.js"></script>
        <script src="js/main.js"></script>
+       <script src="js/lightbox.js"></script>
        <script src="js/bootstrap.min.js"></script>
        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 

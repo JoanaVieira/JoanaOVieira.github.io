@@ -3,13 +3,15 @@
    <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<title>About me</title>
+		<title>TSO Jewellery</title>
 		<meta name="description" content="Joana Vieira Online Portfolio">
 
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-       <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu" rel="stylesheet">	
+        <link rel="stylesheet" type="text/css" href="css/work.css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu" rel="stylesheet">	
    </head>
     
    <body>
@@ -18,7 +20,7 @@
            <div class="row header">
                <div class="col-xs-12">
                    <div class="cool-header">
-                       <a href="About.html" id="aboutlink" class="cool-header-item">About Me</a>
+                       <a href="About.html" id="aboutlink" class="cool-header-item">About</a>
                        <a href="index.html"><img class="cool-header-item" src="/assets/images/logo.png" alt="Joana Vieira"></a>
                        <div class="dropdown"><a id="workslink" class="cool-header-item">Works</a>
                            <div class="dropdown-content">
@@ -37,13 +39,28 @@
 	   <!-- END NAVIGATION -->
 
        
-       <!-- BEGIN ABOUT -->
-       <h1>TSO Jewellery</h1>
-       <!-- END ABOUT -->
-	
+       <!-- TITTLE & DESCRIPTION -->
+       <div class="container">
+           <div class="row">
+                <h1 class="title_work">TSO Jewellery</h1>
+           </div>
+           <div class="row">
+               <p class="description_work">New branding for the facebook store “The Special One Jewellery“ done in collaboration with another design student. We were given full liberty for exploring and designing the brand. Since this brand was for a more feminine target we decided to focus on the colors like dark pink and orange. The final result was obtained by overlapping four circles two of them with the same color and by adding transparencies to each circle.<br><a target="_blank" href="https://www.facebook.com/The-Special-One-Jewellery-708623992555007/">Click here to go to TSO Jewellery page.</a></p>
+           </div>
+       </div>
+       
+       <!-- IMAGES -->
+	   <div class="container">
+           <div class="row">
+                <a href="assets/images/jewellery/perfil_facebook.png" data-lightbox="TSO Jewellery" alwaysShowNavOnTouchDevices="true" data-title="TSO Jewellery Logo"><img class="tsologo" src="assets/images/jewellery/perfil_facebook.png" alt="Logo"></a>
+           </div>
+           <div class="row">
+                <a href="assets/images/jewellery/capa_facebook.png" data-lightbox="TSO Jewellery" alwaysShowNavOnTouchDevices="true" data-title="TSO Jewellery Cover"><img class="tsocover" src="assets/images/jewellery/capa_facebook.png" alt="TSO Jewellery cover"></a>
+           </div>
+	   </div>
        
         <!-- BEGIN FOOTER -->
-       <footer class="footer">
+       <footer class="footer2">
            <div class="container">
                 <a href="https://pt.linkedin.com/in/joanaovieira"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.behance.net/JoanaOVieira"><i class="fa fa-behance-square fa-2x" aria-hidden="true"></i></a>
@@ -53,6 +70,7 @@
        
        <script src="js/jquery.js"></script>
        <script src="js/main.js"></script>
+       <script src="js/lightbox.js"></script>
        <script src="js/bootstrap.min.js"></script>
        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 

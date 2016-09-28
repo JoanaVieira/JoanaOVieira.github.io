@@ -3,18 +3,19 @@
    <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<title>About me</title>
+		<title>Mecanico4you</title>
 		<meta name="description" content="Joana Vieira Online Portfolio">
 
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-       <link rel="stylesheet" type="text/css" href="css/work.css">
+        <link rel="stylesheet" type="text/css" href="css/work.css">
        <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu" rel="stylesheet">	
    </head>
     
    <body>
-       <div class="loader"></div>
+       <div class="wrapper">
        <!-- BEGIN NAVIGATION -->
        <div class="container">
            <div class="row header">
@@ -39,10 +40,26 @@
 	   <!-- END NAVIGATION -->
 
        
-       <!-- BEGIN ABOUT -->
-       <h1 class="titlework">Mecanico 4 You</h1>
-       <!-- END ABOUT -->
-	
+       <!-- TITTLE & DESCRIPTION -->
+       <div class="container">
+           <div class="row">
+                <h1 class="title_work">Mecanico 4 You</h1>
+           </div>
+           <div class="row">
+               <p class="description_work">Branding and website for a call-out service of car repairs and maintenance. The branding and website both needed to communicate quickly and effectively what the brand was and what kind of services where offered so I developed the site considering those aspects. The website is responsive.<br><a target="_blank" href="http://mecanico4you.com/">Click here to go to Mecanico4you website.</a></p>
+           </div>
+       </div>
+       
+       <!-- IMAGES -->
+       <div class="container">
+           <div class="row">
+                <a href="assets/images/Mecanico4you/logo.png" data-lightbox="Mecanico4you" alwaysShowNavOnTouchDevices="true" data-title="Mecanico4you Logo"><img class="m4logo" src="assets/images/Mecanico4you/logo.png" alt="Logo"></a>
+           </div>
+           <div class="row">
+                <a href="assets/images/Mecanico4you/mockup.png" data-lightbox="Mecanico4you" alwaysShowNavOnTouchDevices="true" data-title="Mecanico4you website"><img class="m4mockup" src="assets/images/Mecanico4you/mockup.png" alt="Website mockups"></a>
+           </div>
+	   </div>
+       
        <!-- BEGIN FOOTER -->
        <footer class="footer">
            <div class="container">
@@ -51,9 +68,11 @@
             </div>
        </footer>
        <!-- END FOOTER -->	
+       </div>
        
        <script src="js/jquery.js"></script>
        <script src="js/main.js"></script>
+       <script src="js/lightbox.js"></script>
        <script src="js/bootstrap.min.js"></script>
        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 

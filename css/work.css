@@ -1,7 +1,77 @@
-.titlework{
+.title_work{
     color: white;
     font-family: 'Slabo 27px', sans-serif;
     text-align: center;
     font-size: 30px;
-    margin-top: 5%;
+    margin-top: 8%;
+}
+
+.description_work{
+    color: #d6d6d6;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    margin: 4% 15% 10px 15%;
+}
+
+.description_work a{
+    text-align: center;
+    color: rgba(20, 184, 198, 0.79);
+}
+
+.description_work a:hover{
+    color: #0ccfe8;
+    text-decoration: none;
+}
+
+.m4logo{
+    max-width: 45%;
+    display: block;
+    margin: 7% auto 7% auto;
+}
+
+.m4mockup{
+    max-width: 90%;
+    display: block;
+    margin: 0% auto 15% auto;
+}
+
+.gllogo{
+    max-width: 15%;
+    display: block;
+    margin: 0% auto 10% auto;
+}
+
+.glgif{
+    max-width: 60%;
+    display: block;
+    margin: 5% auto 10% auto;
+}
+
+.tsologo{
+    max-width: 30%;
+    display: block;
+    margin: 7% auto 10% auto;
+}
+
+.tsocover{
+    max-width: 50%;
+    display: block;
+    margin: 0% auto 10% auto;
+}
+
+
+/*Footer for pages with bug*/
+
+.footer2{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer2 a{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #dedede;
 }
