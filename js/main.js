@@ -24,3 +24,4 @@ jQuery('.skillbar').each(function(){
 		width:jQuery(this).attr('data-percent')
 	},2000);
 });
+
