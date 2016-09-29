@@ -12,7 +12,7 @@ $( function() {
         },
                 
          stop: function() {
-             document.getElementById("dragtext").innerHTML = "Drag me!";
+             document.getElementById("dragtext").innerHTML = "";
             document.getElementById("spaceman_icon").src="assets/images/spaceman.png";
             document.getElementById("spaceman_icon").src="assets/images/spaceman.png";
         },
