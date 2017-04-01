@@ -1,0 +1,80 @@
+.works_preview{
+    margin-top: 2%;
+}
+
+.works_preview2{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.thumb{
+    width: 80%;
+    border-style: solid;
+    border-color: rgba(16, 16, 16, 0.92);
+    border-width: 1px;
+}
+
+.thumbnail_1{
+    margin-top: 5%;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  right: 0;
+  height: 100%;
+  width: 72.1%;
+  opacity: 0;
+  transition: 0.7s ease;
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 50%;
+}
+
+.thumbnail_1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  width: 80%;
+  top: 55%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.text .tittle_thumb{
+    font-size: 22px;
+    color: white; 
+}
+
+.text .tag{
+    font-size: 15px;
+    color: #5f75eb;  
+}
+
+.text1 {
+  position: absolute;
+  width: 80%;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.text1 .tittle_thumb{
+    font-size: 22px;
+    color: white; 
+}
+
+.text1 .tag{
+    font-size: 15px;
+    color: #5f75eb;  
+}
