@@ -1,2 +1,2 @@
-# JoanaOVieira.github.io
+# JoanaVieira.github.io
 Portfolio website
