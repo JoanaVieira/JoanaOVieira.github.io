@@ -4,18 +4,18 @@
 
 .works_preview2{
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .thumb{
-    width: 80%;
-    border-style: solid;
+    width:auto;
+    /*border-style: solid;
     border-color: rgba(16, 16, 16, 0.92);
-    border-width: 1px;
+    border-width: 1px;*/
 }
 
 .thumbnail_1{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 
@@ -26,11 +26,11 @@
   left: 4%;
   right: 0;
   height: 100%;
-  width: 74%;
+  width: 91%;
   opacity: 0;
   transition: 0.7s ease;
-  background-color: rgba(0, 0, 0, 0.95);
-  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.95);
+
 }
 
 .thumbnail_1:hover .overlay {
@@ -40,7 +40,7 @@
 .text {
   position: absolute;
   width: 80%;
-  top: 55%;
+  top: 50%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -49,19 +49,23 @@
 
 
 .text .tittle_thumb{
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
-    color: white; 
+    font-weight: 700;
+    color: #464646; 
 }
 
 .text .tag{
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
-    color: #5f75eb;  
+    font-weight: 400;
+    color: #6c6c6c;  
 }
 
 .text1 {
   position: absolute;
   width: 80%;
-  top: 60%;
+  top: 50%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -70,11 +74,15 @@
 
 
 .text1 .tittle_thumb{
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
-    color: white; 
+    font-weight: 700;
+    color: #464646; 
 }
 
 .text1 .tag{
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
-    color: #5f75eb;  
+    font-weight: 400;
+    color: #6c6c6c;  
 }
