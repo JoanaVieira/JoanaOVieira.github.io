@@ -1,0 +1,314 @@
+body { 
+  margin: 0;
+    padding: 0;
+}
+
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+}
+
+
+.box div{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: #FFCA00;
+}
+
+.box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5){
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6){
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7){
+    top: 60%;
+    left: 85%;
+    animation: animate 15s linear infinite;
+}
+.box div:nth-child(8){
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(9){
+    top: 20%;
+    left: 90%;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.5) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.cool-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cool-header-item{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #464646;
+
+}
+
+.cool-header-item2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFCA00;
+}
+
+
+#aboutlink{
+    width: 150px;
+    margin-left: 20%;
+    border-bottom: solid #464646;
+    border-width: 0px 0px 3px 0px;
+}
+
+#aboutlink:hover{
+    text-decoration: none;
+    color: #313131;
+}
+
+#workslink{
+    margin-right: 20%;
+    text-align: right;
+    width: 150px;
+    border-bottom: solid #464646;
+    border-width: 0px 0px 3px 0px;
+}
+
+
+#workslink:hover{
+    text-decoration: none;
+    color: #313131;
+}
+
+/* Main page Content */
+
+.main_text{
+    min-height: 80vh;
+    padding: 15% 15% 5% 15%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.boxContainer_1{
+    border-style: solid;
+    border-color: #464646;
+    border-width: 6px;
+    padding: 5px 20px 10px 20px;
+}
+
+
+.title_main{
+    font-size: 40px;
+    color: #464646;
+    font-weight: 700;
+}
+
+
+.descr{
+    margin-top: 20px;
+    font-size: 30px;
+    position: relative;
+    color: #464646;
+    font-weight: 500;
+}
+
+.email{
+    margin-top: 50px;
+    font-size: 18px;
+    position: relative;
+    color: #464646;
+    text-decoration: none;
+}
+
+
+.email_icon{
+    margin-right: 15px;
+}
+
+
+.title_about{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 25px;
+    color: #464646;
+    font-weight: 700;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    letter-spacing: 1px;
+}
+
+.pd_title{
+    margin-left: 0px;
+}
+
+.borderyellow{
+    border-bottom: solid #ffc900;
+    border-width: 0px 2px 15px 0px;
+    z-index: -1;
+    margin-top: -25px;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.subtittlework{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #ffc900;
+    font-weight: 700;
+    letter-spacing: 1px; 
+    text-align: center;
+}
+
+.description_work{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #2e2e2e;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.description_work2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffc900;
+    font-weight: 300;
+}
+
+
+a .CVbtn{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #ffc900;
+    font-size: 18px;
+    color: #464646;
+    font-weight: 700;
+    margin-top: 15px;
+    padding: 15px;
+    width: 250px;
+    letter-spacing: 0.7px;
+    display: inline-block;
+}
+
+.CVbtn:link{
+    text-decoration: none;
+}
+
+.CVbtn:visited{
+    text-decoration: none;
+}
+
+.CVbtn:hover{
+    background-color: #464646;
+    color: #ffc900;
+    text-decoration: none;
+}
+
+.aboutsection_1{
+    margin-top: 15%;
+}
+
+.sectionAbout{
+    margin-bottom: 20%;
+}
+
+.fotojoana img{
+    width: 56%;
+    text-align: center;
+    margin: 0 21% 20px 21%;
+}
+
+/* Footer */
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.footer a{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #464646;
+}
+
+/* pace loader */
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #ffc900;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 4px;
+}
