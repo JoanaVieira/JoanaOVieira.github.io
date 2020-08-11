@@ -1,21 +1,94 @@
 body { 
-  background-color: white;
+  margin: 0;
+    padding: 0;
 }
 
 
 .wrapper{
-    position: relative;
-    min-height: 100vh;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #FFCA00;
+    
 }
 
-.circle_background{
-    background-image: url(/assets/images/VetorSite_circulo.svg);
-    background-position: 50% 50%;
-    background-repeat:no-repeat;
-    background-size: 50%;
+.box div{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: white;
 }
 
-/* Header */
+.box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5){
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6){
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7){
+    top: 60%;
+    left: 85%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8){
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9){
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+.box div:nth-child(10){
+    top: 20%;
+    left: 90%;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.5) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
 
 .loader {
 	position: fixed;
@@ -24,10 +97,8 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(/assets/images/load.gif) 50% 50% no-repeat rgb(255, 255, 255);
+	background-color: white;
 }
-
-
 .cool-header {
     display: flex;
     justify-content: space-between;
@@ -40,18 +111,27 @@ body {
     font-size: 20px;
     font-weight: 700;
     color: #464646;
+
 }
+
+.cool-header-item2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #464646;
+}
+
 
 #aboutlink{
     width: 150px;
     margin-left: 20%;
     border-bottom: solid #464646;
-    border-width: 0px 0px 1px 0px;
+    border-width: 0px 0px 3px 0px;
 }
 
 #aboutlink:hover{
     text-decoration: none;
-    color: #9d9d9d;
+    color: #313131;
 }
 
 #workslink{
@@ -59,20 +139,20 @@ body {
     text-align: right;
     width: 150px;
     border-bottom: solid #464646;
-    border-width: 0px 0px 1px 0px;
+    border-width: 0px 0px 3px 0px;
 }
 
 
 #workslink:hover{
     text-decoration: none;
-    color: #9d9d9d;
+    color: #313131;
 }
 
 /* Main page Content */
 
 .main_text{
     min-height: 80vh;
-    padding: 10% 15% 5% 15%;
+    padding: 15% 15% 5% 15%;
     color: black;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -85,9 +165,6 @@ body {
     padding: 5px 20px 10px 20px;
 }
 
-.VAlignCenter{
-    margin-top: 20%;
-}
 
 .title_main{
     font-size: 40px;
@@ -105,27 +182,19 @@ body {
 }
 
 .email{
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 18px;
     position: relative;
-    color: #6c6c6c;
+    color: #464646;
+    text-decoration: none;
 }
+
 
 .email_icon{
     margin-right: 15px;
 }
 
-/*.spaceman{
-    width: 150px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    margin-top: 4%;
-}
 
-.dragme{
-    margin-top: 10px;
-}*/
 
 /* Footer */
 
@@ -142,4 +211,29 @@ body {
     padding-left: 8px;
     padding-right: 8px;
     color: #464646;
+}
+
+/* pace loader */
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #ffc900;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 4px;
 }
